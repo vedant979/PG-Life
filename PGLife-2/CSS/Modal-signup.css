@@ -1,0 +1,68 @@
+.modal-title{
+    font-size: 16px;
+    font-weight: 700;
+    color: black;
+}
+.container-sm{
+    width: 100% !important;
+    border: 0.1px solid rgb(184, 174, 174);
+    padding: 0% !important;
+    border-radius: 5px;
+}
+.common{
+    border: none;
+    width: 100% !important;
+    font-size: 12px !important;
+    font-weight: 700 !important;
+    text-align: start ;
+    padding-left: 10px !important;
+    border-radius: 5px;
+}
+.input-group-text{
+    height: 41px;
+    border-radius: 3px !important;
+    width: 41px;
+    padding: auto;
+}
+.fa-phone{
+    font-size: 20px !important;
+}
+input[type="email"]:focus{
+    outline: 0px;
+}
+input[type="password"]:focus{
+    outline: 0px;
+}
+.container{
+    height: 300px;
+    margin: 0;
+    justify-content: flex-start !important;
+}
+.gender0{
+    margin-left: 20px;
+    margin-right: 20px;
+    display: block;
+}
+.modal-footer{
+    width: 100% !important;
+    justify-content: center !important;
+}
+#btn2{
+    width: 100% !important;
+    background-color: #4dc7bc;
+    border-color: #4dc7bc;
+    font-size: 15px;
+    font-weight: 700;
+}
+#btn2:hover{
+    background-color: #3ba199;
+    transition: 0.5s;
+}
+.Login-link{
+    color: #4dc7bc;
+    text-decoration: none;
+}
+.Login-link:hover{
+    color: #3ba199;
+    text-decoration: underline;
+}

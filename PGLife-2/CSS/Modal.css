@@ -1,0 +1,69 @@
+
+.email{
+    display: flex;
+    width: 265px;
+    border: 0.1px solid rgb(184, 174, 174);
+    border-radius: 3px;
+}
+.password{
+    display: flex;
+    width: 265px;
+    border: 0.1px solid rgb(184, 174, 174);
+    border-radius: 3px;
+}
+.input-group-text{
+    height: 41px;
+    border-radius: 2px !important;
+    width: auto;
+    
+}
+.fa-lock{
+    font-size: 20px !important;
+}
+input[type="email"]{
+    width: 100%;
+    border: none;
+}
+input[type="password"]{
+    width: 100%;
+    border: none;
+}
+.body{
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* align-items: stretch; */
+}
+h6{
+    text-align: center;
+}
+.modal-title{
+    font-size: 16px;
+    font-weight: 700;
+    color: black;
+}
+#btn1{
+    background-color: #4dc7bc;
+    border-color: #4dc7bc;
+    font-size: 15px;
+    font-weight: 700;
+}
+#btn1:hover{
+    background-color: #3ba199;
+    transition: 0.5s;
+}
+.register{
+    color: #4dc7bc;
+    text-decoration: none;
+}
+.register:hover{
+    color: #3ba199;
+    text-decoration: underline;
+}
+@media screen and (max-width:576px){
+    .modal-dialog{
+        max-width: 300px !important;
+        margin: auto !important;
+    }
+}

@@ -1,0 +1,58 @@
+.container-title{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 50px;
+    width: 100%;
+}
+.title{
+    font-size: 35px;
+    font-weight: 900;
+}
+.list{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: max-content;
+    gap: 50px;
+    margin: auto;
+}
+.pic1, .pic2, .pic3, .pic4 {
+    border: 1px solid transparent;
+    border-radius: 90px;
+    padding:20px;
+    box-shadow: -0.2px 1px 3px grey;
+    
+}
+.pic1:hover{
+    box-shadow: 0px 2px 7px grey;
+}
+.pic2:hover{
+    box-shadow: 0px 2px 7px grey;
+}
+.pic3:hover{
+    box-shadow: 0px 2px 7px grey;
+}
+.pic4:hover{
+    box-shadow: 0px 2px 7px grey;
+}
+.section-3{
+    margin-top: 90px;
+    margin-bottom: 90px;
+    
+}
+@media screen and (max-width: 800px){
+    .list{
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        gap: 20px;
+        margin-top: 70px;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .nav{
+    margin: auto;
+    }
+}
